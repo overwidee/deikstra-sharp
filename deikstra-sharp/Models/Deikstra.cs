@@ -37,6 +37,7 @@ namespace deikstra_sharp.Models
                     {
                         value[i, i] = decimal.MaxValue;
                     }
+                    quantityVertex = value.GetLength(0);
                     matrix = value;
                 }
             }
